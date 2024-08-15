@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Cat extends Animal {
 
-public class Cat {
+    public Cat() {
+        super(true,false);
+    }
+
+    public void animalSound() {
+        System.out.println("Meow....");
+    }
+
 }
